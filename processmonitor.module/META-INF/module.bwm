@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_PJCtEOf_EeaOWIRDL3iVwg" targetNamespace="http://tns.tibco.com/bw/composite/processmonitor.module" name="processmonitor.module" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_PfdpAOf_EeaOWIRDL3iVwg" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_PfjIkOf_EeaOWIRDL3iVwg" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_Pflk0Of_EeaOWIRDL3iVwg" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_PfoBEOf_EeaOWIRDL3iVwg" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_PfrEYOf_EeaOWIRDL3iVwg" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_PftgoOf_EeaOWIRDL3iVwg" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_Pfv84Of_EeaOWIRDL3iVwg" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_PfyZIOf_EeaOWIRDL3iVwg" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_Pf01YOf_EeaOWIRDL3iVwg" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_vR64kOgAEeaOWIRDL3iVwg" name="/timerStats/timerInterval" type="XMLSchema:int" scaext:simpleValue="0" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_weLQUOgAEeaOWIRDL3iVwg" name="/timerStats/timerOccurrences" type="XMLSchema:int" scaext:simpleValue="0" publicAccess="true" scalable="true"/>
+  <sca:component xmi:id="_PZhZEOf_EeaOWIRDL3iVwg" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_PZhZEef_EeaOWIRDL3iVwg" processName="processmonitor.module.timerStats"/>
+  </sca:component>
+</sca:composite>
